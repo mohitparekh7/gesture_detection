@@ -73,8 +73,9 @@ def readImage(label):
             sqliteConnection.close()
             print("sqlite connection is closed")
 
-create()
+# create()
  
-insertImage('mohit', r'E:\imagica\Screenshot_2019-06-04-10-04-50-632.jpeg') # label and image path
-insertImage('m',r'E:\traditional_day_14March2019\me.jpg') 
+# insertImage('mohit', r'E:\imagica\Screenshot_2019-06-04-10-04-50-632.jpeg') # label and image path
+# insertImage('m',r'E:\traditional_day_14March2019\me.jpg') 
+readImage('mohit')
 
